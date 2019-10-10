@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/button_apples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_apples"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="returnItem"/>
+
+    <Button
+        android:id="@+id/button_bananas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_bananas"
+        app:layout_constraintStart_toEndOf="@+id/button_apples"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="returnItem"/>
+
+    <Button
+        android:id="@+id/button_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_milk"
+        app:layout_constraintStart_toEndOf="@+id/button_bananas"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="returnItem"/>
+
+    <Button
+        android:id="@+id/button_chicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_chicken"
+        app:layout_constraintStart_toEndOf="@+id/button_milk"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="returnItem"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

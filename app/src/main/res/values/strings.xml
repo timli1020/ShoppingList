@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="textView_empty">______</string>
+    <string name="button_add">Add</string>
+    <string name="button_apples">Apples</string>
+    <string name="button_bananas">bananas</string>
+    <string name="button_milk">milk</string>
+    <string name="button_chicken">chicken</string>
+    <string name="edit_text_loc">Locate a store near you</string>
+    <string name="button_open_location">Open Location</string>
+</resources>
